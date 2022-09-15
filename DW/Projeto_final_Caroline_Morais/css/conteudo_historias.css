@@ -1,0 +1,182 @@
+/********************************************
+    - PROJETO DE DESENVOLVIMENTO WEB 1
+    - ALUNA: CAROLINE MORAIS
+    - TURMA: 128
+********************************************/
+/******************************************* TÍTULO ********************************************/
+body{
+    background: url(../imagens/stars-1436950_960_720.jpg);
+}
+
+.titulo{
+    font-size: 2.5em;
+    margin: 100px;
+    color: #eee;
+    background: rgba(106, 90, 205, 0.7);
+    margin: 50px 450px 30px 450px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/******************************************* COLUNA 1 ******************************************/
+
+/****** LINHA ******/
+.linha {
+    display: flex;
+}
+
+/***** PARTE 1 ****/
+.parte1 {
+    padding-bottom: 5px;
+    background-color: rgba(138, 118, 155, 0.65);
+    text-align: center;
+    margin: 20px 0 10px 0;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.parte1 img {
+    width: 41%;
+    padding: 0;
+    margin: 20px;
+}
+
+/***** PARTE 2 ****/
+.parte2 {
+    padding-bottom: 5px;
+    background-color: rgba(138, 118, 155, 0.65);
+    text-align: center;
+    margin: 20px 0 10px 0;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.parte2 img {
+    width: 53%;
+    padding: 0;
+    margin: 20px;
+}
+
+/***** PARTE 3 ****/
+.parte3 {
+    padding: 5px;
+    background-color: rgba(138, 118, 155, 0.65);
+    text-align: center;
+    margin: 20px 0 10px 0;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.parte3 img {
+    width: 50%;
+    padding: 0;
+    margin: 20px;
+}
+
+/****** CONFIGURAÇÃO COLUNA 1 ******/
+#coluna1 {
+    margin-top: 50px;
+    margin-right: 180px;
+    margin-left: 200px;
+    margin-bottom: 90px;
+    box-sizing: border-box;
+}
+
+
+#coluna1 h3 {
+    text-align: left;
+    margin: 10px;
+}
+
+#coluna1 p {
+    text-align: left;
+    margin: 10px;
+}
+
+#coluna1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+/******************************************* COLUNA 2 ******************************************/
+
+/***** PARTE 4 ****/
+.parte4 {
+    padding-bottom: 5px;
+    background-color: rgba(138, 118, 155, 0.65);
+    text-align: center;
+    margin: 20px 0 10px 0;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.parte4 img {
+    width: 55%;
+    padding: 0;
+    margin: 20px;
+}
+
+/***** PARTE 5 ****/
+.parte5 {
+    padding-bottom: 5px;
+    background-color: rgba(138, 118, 155, 0.65);
+    text-align: center;
+    margin: 20px 0 10px 0;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.parte5 img {
+    width: 31%;
+    padding: 0;
+    margin: 20px;
+}
+
+/***** PARTE 6 ****/
+.parte6 {
+    padding: 5px;
+    background-color: rgba(138, 118, 155, 0.65);
+    text-align: center;
+    margin: 20px 0 10px 0;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.parte6 img {
+    width: 45%;
+    padding: 0;
+    margin: 20px;
+}
+
+/****** CONFIGURAÇÃO COLUNA 2 ******/
+#coluna2 {
+    margin-top: 50px;
+    margin-right: 180px;
+    margin-left: 20px;
+    margin-bottom: 90px;
+    box-sizing: border-box;
+}
+
+#coluna2 h3 {
+    text-align: left;
+    margin: 10px;
+}
+
+#coluna2 p {
+    text-align: left;
+    margin: 10px;
+}
+
+#coluna2 a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+

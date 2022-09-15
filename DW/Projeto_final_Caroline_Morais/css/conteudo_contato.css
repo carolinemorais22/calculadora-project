@@ -1,0 +1,33 @@
+/********************************************
+    - PROJETO DE DESENVOLVIMENTO WEB 1
+    - ALUNA: CAROLINE MORAIS
+    - TURMA: 128
+********************************************/
+
+.formulario form{
+    border-radius: 10px;
+    border: 1px solid slateblue;
+    width: 35%;
+    margin-top: 20px;
+    margin: 50px 450px 70px 450px;
+    padding: 10px;
+}
+
+.titulo{
+    font-size: 2em;
+    margin-top: 50px;
+    background-color: slateblue;
+    color: #000;
+    width: 35%;
+    margin: 50px 450px 0 450px;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.formulario form label{
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+/********************************************
+    - PROJETO DE DESENVOLVIMENTO WEB 1
+    - ALUNA: CAROLINE MORAIS
+    - TURMA: 128
+********************************************/
+
+#rodape{
+    background-color: rgba(138, 43, 226, 0.8);
+    text-align: center;
+    padding: 15px;
+    color: #000;
+    font-size: 1em;
+}

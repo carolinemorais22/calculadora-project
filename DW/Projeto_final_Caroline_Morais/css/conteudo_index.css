@@ -1,0 +1,201 @@
+/********************************************
+    - PROJETO DE DESENVOLVIMENTO WEB 1
+    - ALUNA: CAROLINE MORAIS
+    - TURMA: 128
+********************************************/
+
+/******************************************* PARTE 1 *******************************************/
+
+.parte1 {
+    background: url(../imagens/stars-1436950_960_720.jpg);
+}
+.parte1 img{
+    width: 25%;
+    margin-left: 40px;
+    margin-top: 80px;
+    margin-bottom: 6%;
+}
+
+#conteudo-1{
+    text-align: center;
+    position: static;
+}
+
+#conteudo-1 a{
+    text-decoration: none;
+}
+
+#conteudo-1 h1{
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+
+#conteudo-1{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 120px 50px 50px 100px;
+    box-sizing: border-box;
+    width: 60%;
+    height: 50%;
+    padding: 20px;
+    display: inline-block;
+}
+
+#conteudo-1 p{
+    margin: 10px 0;
+    text-align: justify;
+}
+
+#conteudo-1 h1{
+    color: #000;
+}
+
+/******************************************* PARTE 2 *******************************************/
+.parte2{
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.menu-nomes{
+    margin: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    padding: 5px;
+}
+
+.menu-nomes ul{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-nomes li{
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-nomes a{
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.menu-nomes a:hover, .menu-nomes .selected{
+    color: blue;
+}
+
+.parte2 img{
+    width: 50%;
+    margin: 0;
+}
+
+.parte2 p{
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parte2 hr{
+    color: #000;
+}
+
+/******************************************* PARTE 3 *******************************************/
+
+.parte3{
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+.parte3 h1{
+    margin-left: 70px;
+    font-size: 2.5em;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+}
+
+/****** LINHA ******/
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+/***** COLUNA 1 ****/
+.coluna1{
+    width: 31%;
+    padding: 0;
+    background-color: rgba(106, 90, 205, 0.7);
+    margin: 10px 20px 15px 20px;
+}
+.coluna1 img{
+    width: 90%;
+    margin-top: 20px;
+}
+
+/***** COLUNA 2 ****/
+.coluna2{
+    width: 30%;
+    padding: 0;
+    background-color: rgba(106, 90, 205, 0.7);
+    margin: 10px 10px 15px 10px;
+}
+
+.coluna2 img{
+    width: 83%;
+    margin-top: 20px;
+}
+
+/***** COLUNA 3 ****/
+.coluna3{
+    width: 31%;
+    padding: 0;
+    background-color: rgba(106, 90, 205, 0.7);
+    text-align: center;
+    margin: 10px 20px 15px 20px;
+}
+
+.coluna3 img{
+    width: 75%;
+    margin-top: 20px;
+}
+
+.parte3 h3{
+    text-align: left;
+    margin: 10px;
+}
+
+.parte3 p{
+    text-align: left;
+    margin: 10px;
+}
+
+.parte3 a{
+    text-decoration: none;
+    color:#000;
+}
+
+/***** HOVER *****/
+.coluna1 a:hover, .coluna1 .selected{
+    color: blue;
+}
+
+.coluna2 a:hover, .coluna2 .selected{
+    color: blue;
+}
+
+.coluna3 a:hover, .coluna3 .selected{
+    color: blue;
+}
+
